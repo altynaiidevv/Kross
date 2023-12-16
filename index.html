@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <title>Шаблон Портфолио</title>
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- ** Plugins Needed for the Project ** -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
+    <!-- slick slider -->
+    <link rel="stylesheet" href="plugins/slick/slick.css" />
+    <!-- themefy-icon -->
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css" />
+
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header class="navigation fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand font-tertiary h3" href="index.html"
+          ><img src="images/logo.png" alt="Myself"
+        /></a>
+        <div class="collapse navbar-collapse text-center" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Обо Мне</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Блог</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- hero area -->
+    <section class="hero-area bg-primary" id="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-11 mx-auto">
+            <h1 class="text-white font-tertiary text-center">
+              Привет! Я <br />
+              Алтынай <br />
+              UX/UI Дизайнер
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="layer-bg w-100">
+        <img
+          class="img-fluid w-100"
+          src="images/illustrations/leaf-bg.png"
+          alt="bg-shape"
+        />
+      </div>
+      <div class="layer" id="l2">
+        <img src="images/illustrations/dots-cyan.png" alt="bg-shape" />
+      </div>
+      <div class="layer" id="l3">
+        <img src="images/illustrations/leaf-orange.png" alt="bg-shape" />
+      </div>
+      <div class="layer" id="l4">
+        <img src="images/illustrations/dots-orange.png" alt="bg-shape" />
+      </div>
+      <div class="layer" id="l5">
+        <img src="images/illustrations/leaf-yellow.png" alt="bg-shape" />
+      </div>
+      <div class="layer" id="l6">
+        <img src="images/illustrations/leaf-cyan.png" alt="bg-shape" />
+      </div>
+      <div class="layer" id="l7">
+        <img src="images/illustrations/dots-group-orange.png" alt="bg-shape" />
+      </div>
+      <div class="layer" id="l8">
+        <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape" />
+      </div>
+      <div class="layer" id="l9">
+        <img src="images/illustrations/leaf-cyan-2.png" alt="bg-shape" />
+      </div>
+      <!-- social icon -->
+      <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+        <li class="mb-3">
+          <a class="text-white" href="#"><i class="ti-facebook"></i></a>
+        </li>
+        <li class="mb-3">
+          <a class="text-white" href="#"><i class="ti-instagram"></i></a>
+        </li>
+        <li class="mb-3">
+          <a class="text-white" href="#"><i class="ti-dribbble"></i></a>
+        </li>
+        <li class="mb-3">
+          <a class="text-white" href="#"><i class="ti-twitter"></i></a>
+        </li>
+      </ul>
+      <!-- /social icon -->
+    </section>
+    <!-- /hero area -->
+
+    <!-- about -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center">
+            <p class="font-secondary paragraph-lg text-dark">
+              UX дизайнер отвечает за создание удобства использования продукта.
+              Он проводит исследования пользовательских потребностей,
+              проектирует интерфейс, учитывая эргономику, навигацию и визуальное
+              оформление, с целью обеспечения позитивного опыта для
+              пользователей.
+            </p>
+            <a href="about.html" class="btn btn-transparent">узнать больше </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /about -->
+
+    <!-- skills -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-title">Навыки</h2>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+            <div class="card shadow text-center">
+              <div
+                class="position-relative rounded-top progress-wrapper"
+                data-color="red"
+              >
+                <div class="wave" data-progress="90%"></div>
+              </div>
+              <div class="card-footer bg-white">
+                <h4 class="card-title">
+                  Веб Дизайн <br />
+                  (90%)
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+            <div class="card shadow text-center">
+              <div
+                class="position-relative rounded-top progress-wrapper"
+                data-color="#543984"
+              >
+                <div class="wave" data-progress="60%"></div>
+              </div>
+              <div class="card-footer bg-white">
+                <h4 class="card-title">Дизайн Логотипа (60%)</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+            <div class="card shadow text-center">
+              <div
+                class="position-relative rounded-top progress-wrapper"
+                data-color="yellowgreen"
+              >
+                <div class="wave" data-progress="80%"></div>
+              </div>
+              <div class="card-footer bg-white">
+                <h4 class="card-title">Афтер Эффектс (80%)</h4>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+            <div class="card shadow text-center">
+              <div
+                class="position-relative rounded-top progress-wrapper"
+                data-color="gold"
+              >
+                <div class="wave" data-progress="70%"></div>
+              </div>
+              <div class="card-footer bg-white">
+                <h4 class="card-title">Веб Приложение (70%)</h4>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- /skills -->
+
+    <!-- experience -->
+    <section class="section">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-title">Опыт</h2>
+          </div>
+          <div class="col-lg-3 col-md-4 text-center">
+            <img src="images/experience/icon-1.png" alt="icon" />
+            <p class="mb-0">Январь 2021 - Февраль 2023</p>
+            <h4>Младший UX Дизайнер</h4>
+            <h6 class="text-light">ВЕБЕКС</h6>
+          </div>
+          <div class="col-lg-3 col-md-4 text-center">
+            <img src="images/experience/icon-2.png" alt="icon" />
+            <p class="mb-0">Март 2018 - Август 2023</p>
+            <h4>UX & UI Дизайнер</h4>
+            <h6 class="text-light">Аугмедикс</h6>
+          </div>
+          <div class="col-lg-3 col-md-4 text-center">
+            <img src="images/experience/icon-3.png" alt="icon" />
+            <p class="mb-0">Сентябрь 2014 - Настоящее время</p>
+            <h4>Старший UI Дизайнер</h4>
+            <h6 class="text-light">Темафишер</h6>
+          </div>
+          <div class="col-lg-3 col-md-4 text-center">
+            <img src="images/experience/icon-2.png" alt="icon" />
+            <p class="mb-0">Март 2018 - Август 2023</p>
+            <h4>UX & UI Дизайнер</h4>
+            <h6 class="text-light">Аугмедикс</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ./experience -->
+
+    <!-- education -->
+    <section class="section position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-title">Образование</h2>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-80 ">
+            <div class="d-flex">
+              <!-- <div class="mr-lg-5 mr-3">
+                <i
+                  class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"
+                ></i>
+              </div> -->
+              <div>
+                <p class="text-dark mb-1">2006</p>
+                <h4>Мастера в UX Дизайне</h4>
+                <p class="mb-0 text-light">
+                  Массасусетский Технологический Институт
+                </p>
+              </div>
+              <div class="mr-lg-5 mr-3">
+                <i
+                  class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-80">
+            <div class="d-flex">
+              <!-- <div class="mr-lg-5 mr-3">
+                <i
+                  class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"
+                ></i>
+              </div> -->
+              <div>
+                <p class="text-dark mb-1">2004</p>
+                <h4>Награды в Области Изобразительного Искусства</h4>
+                <p class="mb-0 text-light">Гарвардский Университет</p>
+              </div>
+              <div class="mr-lg-5 mr-3">
+                <i
+                  class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-80">
+            <div class="d-flex">
+              <!-- <div class="mr-lg-5 mr-3">
+                <i
+                  class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"
+                ></i>
+              </div> -->
+              <div>
+                <p class="text-dark mb-1">2000</p>
+                <h4>Аттестат о Высшем Среднем Образовании</h4>
+                <p class="mb-0 text-light">Кардиффская Школа</p>
+              </div>
+              <div class="mr-lg-5 mr-3">
+                <i
+                  class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-80">
+            <div class="d-flex">
+              <!-- <div class="mr-lg-5 mr-3">
+                <i
+                  class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"
+                ></i>
+              </div> -->
+              <div>
+                <p class="text-dark mb-1">1998</p>
+                <h4>Аттестат о Среднем Образовании</h4>
+                <p class="mb-0 text-light">Кардиффская Школа</p>
+              </div>
+              <div class="mr-lg-5 mr-3">
+                <i
+                  class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- bg image -->
+      <img
+        class="img-fluid edu-bg-image w-100"
+        src="images/backgrounds/education-bg.png"
+        alt="bg-image"
+      />
+    </section>
+    <!-- /education -->
+
+    <!-- services -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="section-title">Услуги</h2>
+          </div>
+          <div class="col-md-4 mb-4 mb-md-0">
+            <div class="card hover-shadow shadow">
+              <div class="card-body text-center px-4 py-5">
+                <i class="ti-palette icon mb-5 d-inline-block"></i>
+                <h4 class="mb-4">UI Дизайн</h4>
+                <p>
+                  UI дизайн (User Interface Design - Дизайн пользовательского
+                  дизайна) – это процесс создания графического интерфейса, с
+                  которым пользователи взаимодействуют при использовании
+                  программного продукта или веб-сайта.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 mb-md-0">
+            <div class="card active-bg-primary hover-shadow shadow">
+              <div class="card-body text-center px-4 py-5">
+                <i class="ti-vector icon mb-5 d-inline-block"></i>
+                <h4 class="mb-4">UX Дизайн</h4>
+                <p>
+                  UX дизайн (User Experience Design - Дизайн Пользовательского
+                  Опыта) фокусируется на создании положительного опыта
+                  пользователей при взаимодействии с продуктом или сервисом.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 mb-md-0">
+            <div class="card hover-shadow shadow">
+              <div class="card-body text-center px-4 py-5">
+                <i class="ti-panel icon mb-5 d-inline-block"></i>
+                <h4 class="mb-4">Интерактивный Дизайн</h4>
+                <p>
+                  Интерактивный дизайн — это область дизайна, фокусирующаяся на
+                  создании взаимодействия между пользователем и продуктом.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /services -->
+
+    <!-- portfolio -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="section-title">Портфолио</h2>
+          </div>
+        </div>
+        <div class="row shuffle-wrapper">
+          <div class="col-lg-4 col-6 mb-4 shuffle-item">
+            <div class="position-relative rounded hover-wrapper">
+              <img
+                src="images/portfolio/item-1.png"
+                alt="portfolio-image"
+                class="img-fluid rounded w-100"
+              />
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a class="btn btn-light btn-sm" href="#">view project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6 mb-4 shuffle-item">
+            <div class="position-relative rounded hover-wrapper">
+              <img
+                src="images/portfolio/item-2jpg.jpg"
+                alt="portfolio-image"
+                class="img-fluid rounded w-100"
+              />
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a class="btn btn-light btn-sm" href="#">view project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6 mb-4 shuffle-item">
+            <div class="position-relative rounded hover-wrapper">
+              <img
+                src="images/portfolio/item-3.png"
+                alt="portfolio-image"
+                class="img-fluid rounded w-100"
+              />
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a class="btn btn-light btn-sm" href="#">view project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-6 mb-4 shuffle-item">
+            <div class="position-relative rounded hover-wrapper">
+              <img
+                src="images/portfolio/item-4.png"
+                alt="portfolio-image"
+                class="img-fluid rounded w-100"
+              />
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  <a class="btn btn-light btn-sm" href="#">view project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /portfolio -->
+
+    <!-- testimonial -->
+    <section class="section bg-primary position-relative testimonial-bg-shapes">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="section-title text-white mb-5">Отзывы</h2>
+          </div>
+          <div class="col-lg-10 mx-auto testimonial-slider">
+            <!-- slider-item -->
+            <div class="text-center testimonial-content">
+              <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+              <p class="text-white mb-4">
+                Уже неоднократно приходилось работать с дизайнерами, но такого
+                сервиса и качества работы я еще не встречала. Алтынай, сделала
+                все на высшем уровне, выполнила все в сроки, предоставила
+                несколько вариантов сайта.
+                <strong>Постоянно оставалась на связи.</strong>
+                Уверена, что наше сотрудничество на этом не закончится, буду
+                советовать всем знакомым!!!
+              </p>
+              <img
+                class="img-fluid rounded-circle mb-4 d-inline-block"
+                src="images/testimonial/client-1.png"
+                alt="client-image"
+                width="111px"
+              />
+              <h4 class="text-white">Мадлен Захировна</h4>
+              <h6 class="text-light mb-4">Генеральный Директор, Спонсор</h6>
+            </div>
+            <!-- slider-item -->
+            <div class="text-center testimonial-content">
+              <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+              <p class="text-white mb-4">
+                Очень довольна сотрудничеством с Алтынай! Талантливая молодая
+                девушка. Алтынай делала лендинг для компании воды Jevea, по
+                моему заказу.
+                <strong>
+                  Дизайн превзошел все ожидания, легкий, стильный, понятный! А
+                  главное сроки!!!</strong
+                >
+                Я очень рекомендую присмотреться к Алтынай, вы не пожалеете!
+              </p>
+              <img
+                class="img-fluid rounded-circle mb-4 d-inline-block"
+                src="images/testimonial/client-1.png"
+                alt="client-image"
+                width="111px"
+              />
+              <h4 class="text-white">Анжела Рахимовна</h4>
+              <h6 class="text-light mb-4">Менеджер,Спонсор</h6>
+            </div>
+            <!-- slider-item -->
+            <div class="text-center testimonial-content">
+              <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+              <p class="text-white mb-4">
+                Заказали Алтынай разработку концепции и воплощение сайта нашего
+                креативного маркетингового агентства. Вывалили кучу своих идей и
+                пожеланий. На выходе Алтынай собрала все в конфетку, с лучшей
+                стороны показала свой креатив, учитывала все пожелания, всегда
+                была на связи и корректно давала свои рекомендации.
+                <strong
+                  >Получили то, что хотели - мы прекрасный многостраничный сайт
+                  с логикой и фишками, Алтынай - опыт и неплохой, надеюсь, кейс
+                  в коллекцию.</strong
+                >
+                Рекомендую к сотрудничеству, сами будем обращаться по
+                необходимости
+              </p>
+              <img
+                class="img-fluid rounded-circle mb-4 d-inline-block"
+                src="images/testimonial/client-1.png"
+                alt="client-image"
+                width="111px"
+              />
+              <h4 class="text-white">Павел Золотарев</h4>
+              <h6 class="text-light mb-4">Директор, Спонсор</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- bg shapes -->
+      <img
+        src="images/backgrounds/map.png"
+        alt="map"
+        class="img-fluid bg-map"
+      />
+      <img
+        src="images/illustrations/dots-group-v.png"
+        alt="bg-shape"
+        class="img-fluid bg-shape-1"
+      />
+      <img
+        src="images/illustrations/leaf-orange.png"
+        alt="bg-shape"
+        class="img-fluid bg-shape-2"
+      />
+      <img
+        src="images/illustrations/dots-group-sm.png"
+        alt="bg-shape"
+        class="img-fluid bg-shape-3"
+      />
+      <img
+        src="images/illustrations/leaf-pink-round.png"
+        alt="bg-shape"
+        class="img-fluid bg-shape-4"
+      />
+      <img
+        src="images/illustrations/leaf-cyan.png"
+        alt="bg-shape"
+        class="img-fluid bg-shape-5"
+      />
+    </section>
+    <!-- /testimonial -->
+
+    <!-- client logo slider -->
+    <section class="section pb-0">
+      <div class="container">
+        <h2 class="section-title text-center">Мои Клиенты</h2>
+        <div class="client-logo-slider d-flex align-items-center">
+          <a href="#" class="text-center d-block outline-0 p-4"
+            ><img
+              class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-1.png"
+              alt="client-logo"
+          /></a>
+          <a href="#" class="text-center d-block outline-0 p-4"
+            ><img
+              class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-2.png"
+              alt="client-logo"
+          /></a>
+          <a href="#" class="text-center d-block outline-0 p-4"
+            ><img
+              class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-3.png"
+              alt="client-logo"
+          /></a>
+          <a href="#" class="text-center d-block outline-0 p-4"
+            ><img
+              class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-4.png"
+              alt="client-logo"
+          /></a>
+          <a href="#" class="text-center d-block outline-0 p-4"
+            ><img
+              class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-5.png"
+              alt="client-logo"
+          /></a>
+          <a href="#" class="text-center d-block outline-0 p-4"
+            ><img
+              class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-1.png"
+              alt="client-logo"
+          /></a>
+          <a href="#" class="text-center d-block outline-0 p-4"
+            ><img
+              class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-2.png"
+              alt="client-logo"
+          /></a>
+          <a href="#" class="text-center d-block outline-0 p-4"
+            ><img
+              class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-3.png"
+              alt="client-logo"
+          /></a>
+          <a href="#" class="text-center d-block outline-0 p-4"
+            ><img
+              class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-4.png"
+              alt="client-logo"
+          /></a>
+          <a href="#" class="text-center d-block outline-0 p-4"
+            ><img
+              class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-5.png"
+              alt="client-logo"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <!-- /client logo slider -->
+
+    <!-- blog -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="section-title">Блоги</h2>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+            <article class="card shadow">
+              <img
+                class="rounded card-img-top"
+                src="images/blog/post-3.jpg"
+                alt="post-thumb"
+              />
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a class="text-dark" href="blog-single.html"
+                    >Амазон увеличивает доход на 1.5 миллиона</a
+                  >
+                </h4>
+                <p class="cars-text">
+                  Amazon – это крупнейшая в мире торговая интернет-компания,
+                  изначально специализирующаяся на электронной коммерции, но
+                  позднее расширившая свою деятельность на области облачных
+                  вычислений, потребительских электронных устройств, стриминга
+                  медиаконтента и других сфер.
+                </p>
+                <a href="blog-single.html" class="btn btn-xs btn-primary"
+                  >Подробнее</a
+                >
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+            <article class="card shadow">
+              <img
+                class="rounded card-img-top"
+                src="images/blog/post-4.jpg"
+                alt="post-thumb"
+              />
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a class="text-dark" href="blog-single.html"
+                    >Амазон увеличивает доход на 1.5 миллиона</a
+                  >
+                </h4>
+                <p class="cars-text">
+                  Amazon выпускает собственные устройства, такие как Kindle
+                  (электронная книга), Amazon Echo (система умного дома с
+                  голосовым управлением) и Fire TV (платформа для стриминга
+                  видео).
+                </p>
+                <a href="blog-single.html" class="btn btn-xs btn-primary"
+                  >Подробнее</a
+                >
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+            <article class="card shadow">
+              <img
+                class="rounded card-img-top"
+                src="images/blog/post-2.jpg"
+                alt="post-thumb"
+              />
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a class="text-dark" href="blog-single.html"
+                    >Амазон увеличивает доход на 1.5 миллиона</a
+                  >
+                </h4>
+                <p class="cars-text">
+                  В настоящее время компания предоставляет широкий спектр услуг
+                  и продуктов, включая электронную коммерцию, облачные
+                  вычисления, стриминг медиаконтента, искусственный интеллект,
+                  производство электроники и многие другие.
+                </p>
+                <a href="blog-single.html" class="btn btn-xs btn-primary"
+                  >Подробнее</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /blog -->
+
+    <!-- contact -->
+    <section
+      class="section section-on-footer"
+      data-background="images/backgrounds/bg-dots.png"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="section-title">Контактная Информация</h2>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <div class="bg-white rounded text-center p-5 shadow-down">
+              <h4 class="mb-80">Контактная Форма</h4>
+              <form action="#" class="row">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Полное Имя"
+                    class="form-control px-0 mb-4"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Электронный Адрес"
+                    class="form-control px-0 mb-4"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    id="message"
+                    class="form-control px-0 mb-4"
+                    placeholder="Напишите Сообщение Здесь"
+                  ></textarea>
+                </div>
+                <div class="col-lg-6 col-10 mx-auto">
+                  <button class="btn btn-primary w-100">отправить</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /contact -->
+
+    <!-- footer -->
+    <footer class="bg-dark footer-section">
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h5 class="text-light">Электронная Почта</h5>
+              <p class="text-white paragraph-lg font-secondary">
+                samatovaaltynai008@gmail.com
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h5 class="text-light">Телефон</h5>
+              <p class="text-white paragraph-lg font-secondary">
+                +996707566455
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h5 class="text-light">Адрес</h5>
+              <p class="text-white paragraph-lg font-secondary">
+                ул. Малдыбаева, 34Б, Кыргызстан, г. Бишкек
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-top text-center border-dark py-5">
+        <p class="mb-0 text-light">
+          Все права защищены ©
+          <script>
+            var CurrentYear = new Date().getFullYear();
+            document.write(CurrentYear);
+          </script>
+        </p>
+      </div>
+    </footer>
+    <!-- /footer -->
+
+    <!-- jQuery -->
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- slick slider -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <!-- filter -->
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+
+    <!-- Main Script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
